@@ -1,0 +1,56 @@
+nav{
+
+    background-color: blueviolet;
+padding: auto;
+justify-content: center;
+
+
+}
+ nav a{
+    display: inline;
+padding: 80px;
+ color: black;   
+ text-decoration: none;
+
+ }
+
+ nav h1{
+
+    color: yellow;
+    text-align: center;
+    white-space:nowrap;
+    position: relative;
+animation: defilement 10s linear infinite alternate;        
+    }
+    
+    div img{justify-content: flex-end;
+
+    }
+    h2{
+        color: red;
+    }
+ @keyframes defilement {
+    from{
+        transform: translateX(0);
+    }
+    to{
+     transform: translateX(100px);
+    }
+    
+ }
+
+nav ul {
+    
+    display: flex;
+    text-align: center;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    
+}
+body{
+    background-color: rgb(0, 255, 213);
+    font-family:roboto;
+}
+
